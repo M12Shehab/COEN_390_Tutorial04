@@ -48,27 +48,11 @@ public class MainActivity extends AbsRuntimePermission {
 
             @Override
             public void onFailure(Call<Example> call, Throwable t) {
-//                Log.w("MSG_InboxError", t.getCause());
                 Toast.makeText(getApplicationContext(),
                         t.getMessage(),
                         Toast.LENGTH_LONG).show();
             }
         });
-//        call.enqueue(new Callback<List<Weather>>() {
-//            @Override
-//            public void onResponse(Call<List<Weather>> call, Response<List<Weather>> response) {
-//                Log.w("MSG_Inbox", response.message());
-//            }
-//
-//            @Override
-//            public void onFailure(Call<List<Weather>> call, Throwable t) {
-////                Log.w("MSG_InboxError", t.getCause());
-//                Toast.makeText(getApplicationContext(),
-//                        t.getMessage(),
-//                        Toast.LENGTH_SHORT).show();
-//                System.out.println("ErrorX: "+t.getMessage());
-//            }
-//        });
 
     }
 
