@@ -27,4 +27,4 @@
   </ol>
 </details>
 <br/>
-<p>Mohammed A. Shehab</p>
+<p align="center">Mohammed A. Shehab</p>
