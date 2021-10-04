@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://github.com/M12Shehab/Class-04-Students">
+  <a href="https://github.com/M12Shehab/COEN_390_Tutorial04">
     <img src="powered-by-android.svg" alt="Logo" width="180" height="180">
   </a>
 
 <h3 align="center">COEN/ELEC 390</h3>
 
   <p align="center">
-   Class-02-Students version
+   Class-04-Students version
   </p>
 
 </p>
