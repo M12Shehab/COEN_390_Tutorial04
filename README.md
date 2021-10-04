@@ -2,7 +2,7 @@
   <a href="https://github.com/M12Shehab/Class-02-Students">
     <img src="powered-by-android.svg" alt="Logo" width="180" height="180">
   </a>
-<p>Mohammed A. Shehab</p>
+
 <h3 align="center">COEN/ELEC 390</h3>
 
   <p align="center">
@@ -26,3 +26,5 @@
     </li>
   </ol>
 </details>
+<br/>
+<p>Mohammed A. Shehab</p>
