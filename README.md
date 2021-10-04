@@ -22,7 +22,7 @@
       <a href="https://square.github.io/retrofit/">Retrofit</a>
     </li>
     <li>
-      <a href="https://developer.android.com/training/volleyn">Volley</a>
+      <a href="https://developer.android.com/training/volley">Volley</a>
     </li>
   </ol>
 </details>
