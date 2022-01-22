@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tutorial04">
         <activity
+            android:name=".Views.Settings"
+            android:exported="false" />
+        <activity
             android:name=".Views.MainActivity"
             android:exported="true">
             <intent-filter>
