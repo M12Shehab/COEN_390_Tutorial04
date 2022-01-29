@@ -4,8 +4,11 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +23,7 @@ public class MainActivity extends AbsRuntimePermission {
     final static String appKey = "5dd57642c5ea81c569e59c55ccaeb5e6";
 
     TextView temp,pressure,humidity;
+    Button btn_settings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +57,20 @@ public class MainActivity extends AbsRuntimePermission {
                         Toast.LENGTH_LONG).show();
             }
         });
+
+        btn_settings = findViewById(R.id.btn_settings);
+        try {
+            btn_settings.setOnClickListener(view -> {
+                Intent intent = new Intent(this, Settings.class);
+                startActivity(intent);
+            });
+        }
+        catch (Exception exception)
+        {
+            Intent intent = new Intent(this, Settings.class);
+            startActivity(intent);
+        }
+
 
     }
 
